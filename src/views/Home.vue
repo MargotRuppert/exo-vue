@@ -1,9 +1,9 @@
 <template>
-<h1>c'est le home</h1>
+<TpData></TpData>
 </template>
 
 <script setup lang='js'>
-
+import TpData from '../components/TpData.vue';
 
 </script>
 
