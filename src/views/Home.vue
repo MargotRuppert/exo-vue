@@ -1,13 +1,15 @@
 <template>
-<TpData></TpData>
+<!-- <TpData></TpData>
 <TpBtn></TpBtn>
-<TpEvent></TpEvent>
+<TpEvent></TpEvent> -->
+<TpWatcher></TpWatcher>
 </template>
 
 <script setup lang='js'>
 import TpData from '../components/TpData.vue';
 import TpBtn from '../components/TpBtn.vue';
 import TpEvent from '../components/TpEvent.vue';
+import TpWatcher from '../components/TpWatcher.vue';
 
 </script>
 
