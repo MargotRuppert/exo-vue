@@ -23,7 +23,7 @@ function btnDown(){
 
 </script>
 
-<style>
+<style scoped>
 #btn {
     margin-top : 50px;
     display: flex;
