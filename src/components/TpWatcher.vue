@@ -13,7 +13,7 @@ const add = () => {
 };
 
 watch(count, (newCount) => {
-    if (newCount == 7){
+    if (newCount === 7){
         count.value = 0;
     }
 })
