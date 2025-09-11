@@ -3,7 +3,8 @@
 <TpBtn></TpBtn>
 <TpEvent></TpEvent> -->
 <!-- <TpWatcher></TpWatcher> -->
- <DynamicStyle></DynamicStyle>
+ <!-- <DynamicStyle></DynamicStyle> -->
+<StyleDynamic></StyleDynamic>
 </template>
 
 <script setup lang='js'>
@@ -12,6 +13,7 @@ import TpBtn from '../components/TpBtn.vue';
 import TpEvent from '../components/TpEvent.vue';
 import TpWatcher from '../components/TpWatcher.vue';
 import DynamicStyle from '../components/DynamicStyle.vue';
+import StyleDynamic from '../components/StyleDynamic.vue';
 
 </script>
 
