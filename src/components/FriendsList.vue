@@ -1,6 +1,6 @@
 <template>
     <div>
-        <TpProps v-for="amis in lesAmis" :id="amis.id" :name="amis.name" :phone="amis.phone" :email="amis.email"/>
+        <TpProps v-for="amis in lesAmis" :id="amis.id" :name="amis.name" :phone="amis.phone" :email="amis.email" :premium="amis.premium" v-on:suppr="handleDelete($event)"/>
     </div>
 </template>
 
@@ -39,4 +39,10 @@ const lesAmis = ref([
         premium: true
     }
 ]);
+
+function handleDelete(id) {
+    console.log(id);
+    lesAmis.value.splice(lesAmis.id, 1);
+}
+
 </script>
