@@ -1,6 +1,7 @@
 <template>
     <div>
-        <TpProps v-for="amis in lesAmis" :id="amis.id" :name="amis.name" :phone="amis.phone" :email="amis.email" :premium="amis.premium" v-on:suppr="handleDelete($event)"/>
+        <TpProps v-for="amis in lesAmis" :id="amis.id" :name="amis.name" :phone="amis.phone" :email="amis.email"
+            :premium="amis.premium" v-on:suppr="handleDelete" v-on:isPremium="supprPremium($event)" />
     </div>
 </template>
 
@@ -45,4 +46,8 @@ function handleDelete(id) {
     lesAmis.value.splice(lesAmis.id, 1);
 }
 
+function supprPremium(id) {
+    const togglePrem = lesAmis.value.find((element) => element.id === id);
+    togglePrem.premium = !togglePrem.premium;
+}
 </script>
