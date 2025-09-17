@@ -35,7 +35,7 @@ function changeUser(name, age) {
     }
 
     user.value = modifyUser;
-    console.log("utilisateur modifié");
+    console.log("utilisateur bien modifié");
 }
 
 </script>

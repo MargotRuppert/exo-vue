@@ -9,7 +9,9 @@
    <!-- <TpApi></TpApi> -->
    <!-- <HelloWorld foo="on passe une props pour foo" username="on passe une props pour username"></HelloWorld> -->
    <!-- <FriendsList></FriendsList> -->
-   <ComponentCommunication></ComponentCommunication>
+   <!-- <ComponentCommunication></ComponentCommunication> -->
+   <!-- <Chartjs></Chartjs> -->
+    <Pinia></Pinia>
 </template>
 
 <script setup lang='js'>
@@ -25,6 +27,8 @@ import HelloWorld from '../components/HelloWorld.vue';
 import TpProps from '../components/TpProps.vue';
 import FriendsList from '../components/FriendsList.vue';
 import ComponentCommunication from './tp/ComponentCommunication.vue';
+import Chartjs from './lessons/chartjs.vue';
+import Pinia from './lessons/pinia.vue';
 
 </script>
 
