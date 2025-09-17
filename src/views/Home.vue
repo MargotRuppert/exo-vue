@@ -1,14 +1,15 @@
 <template>
-<!-- <TpData></TpData>
+   <!-- <TpData></TpData>
 <TpBtn></TpBtn>
 <TpEvent></TpEvent> -->
-<!-- <TpWatcher></TpWatcher> -->
- <!-- <DynamicStyle></DynamicStyle> -->
-<!-- <StyleDynamic></StyleDynamic> -->
-<!-- <VifExo></VifExo> -->
- <!-- <TpApi></TpApi> -->
-  <!-- <HelloWorld foo="on passe une props pour foo" username="on passe une props pour username"></HelloWorld> -->
-   <FriendsList></FriendsList>
+   <!-- <TpWatcher></TpWatcher> -->
+   <!-- <DynamicStyle></DynamicStyle> -->
+   <!-- <StyleDynamic></StyleDynamic> -->
+   <!-- <VifExo></VifExo> -->
+   <!-- <TpApi></TpApi> -->
+   <!-- <HelloWorld foo="on passe une props pour foo" username="on passe une props pour username"></HelloWorld> -->
+   <!-- <FriendsList></FriendsList> -->
+   <ComponentCommunication></ComponentCommunication>
 </template>
 
 <script setup lang='js'>
@@ -23,8 +24,8 @@ import TpApi from '../components/TpApi.vue';
 import HelloWorld from '../components/HelloWorld.vue';
 import TpProps from '../components/TpProps.vue';
 import FriendsList from '../components/FriendsList.vue';
+import ComponentCommunication from './tp/ComponentCommunication.vue';
 
 </script>
 
-<style scoped lang="css">
-</style>
+<style scoped lang="css"></style>
